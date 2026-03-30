@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" role="img" aria-label="RePlasMar">
+  <title>RePlasMar — Economía Circular Marina</title>
+  <defs>
+    <linearGradient id="lg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D3B6E"/>
+      <stop offset="55%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#00897B"/>
+    </linearGradient>
+    <linearGradient id="lg2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#80DEEA" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#B2EBF2"/>
+    </linearGradient>
+    <clipPath id="cc">
+      <circle cx="30" cy="30" r="29.5"/>
+    </clipPath>
+    <marker id="ah" viewBox="0 0 8 8" refX="7" refY="4"
+            markerWidth="3.5" markerHeight="3.5" orient="auto">
+      <path d="M 0 0 L 8 4 L 0 8 Z" fill="white"/>
+    </marker>
+  </defs>
+
+  <!-- ── ÍCONO ──────────────────────────────────── -->
+  <circle cx="30" cy="30" r="30" fill="url(#lg1)"/>
+  <g clip-path="url(#cc)">
+    <circle cx="30" cy="30" r="22" fill="none"
+            stroke="rgba(255,255,255,0.07)" stroke-width="7"/>
+    <g transform="translate(30,30)">
+      <path d="M 0,-16 A 16,16 0 0,1 13.86,8"
+            stroke="white" stroke-width="3.2" fill="none"
+            stroke-linecap="round" marker-end="url(#ah)"/>
+      <g transform="rotate(120)">
+        <path d="M 0,-16 A 16,16 0 0,1 13.86,8"
+              stroke="white" stroke-width="3.2" fill="none"
+              stroke-linecap="round" marker-end="url(#ah)"/>
+      </g>
+      <g transform="rotate(240)">
+        <path d="M 0,-16 A 16,16 0 0,1 13.86,8"
+              stroke="white" stroke-width="3.2" fill="none"
+              stroke-linecap="round" marker-end="url(#ah)"/>
+      </g>
+    </g>
+    <path d="M 6 46 Q 15 41 24 46 Q 33 51 42 46 Q 50 41 56 47"
+          stroke="url(#lg2)" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <path d="M 10 52 Q 18 48 26 52 Q 34 57 42 52 Q 48 49 52 52"
+          stroke="url(#lg2)" stroke-width="1.7" fill="none"
+          stroke-linecap="round" opacity="0.55"/>
+  </g>
+
+  <!-- ── WORDMARK ───────────────────────────────── -->
+  <!-- Requiere que Montserrat esté disponible en el entorno de renderizado -->
+  <text y="36" font-family="Montserrat, Arial, sans-serif" font-size="26">
+    <tspan fill="#26A69A" font-weight="300">Re</tspan><tspan fill="#0A2342" font-weight="900">Plas</tspan><tspan fill="#00BCD4" font-weight="300">Mar</tspan>
+  </text>
+  <!-- Tagline -->
+  <text x="69" y="52" font-family="Inter, Arial, sans-serif" font-size="7.5"
+        fill="#78909C" letter-spacing="1.8" font-weight="500">ECONOMÍA CIRCULAR MARINA</text>
+</svg>

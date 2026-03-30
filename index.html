@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RePlasMar — Transformamos el plástico del océano en productos sostenibles, empleos reales y futuro para las comunidades costeras." />
+  <title>RePlasMar — Economía Circular Marina</title>
+  <link rel="icon" href="logo.svg" type="image/svg+xml" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-logo">
+        <img src="logo.svg" class="nav-logo-img" alt="RePlasMar" width="34" height="34" />
+        <span class="logo-text">RePlasMar</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#como-funciona">Proceso</a></li>
+        <li><a href="#impacto">Impacto</a></li>
+        <li><a href="#inversionistas">Invertir</a></li>
+        <li><a href="#comunidades">Comunidades</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#contacto" class="nav-cta">Contáctanos</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+       HERO SECTION
+  ═══════════════════════════════════════════ -->
+  <section id="inicio" class="hero">
+    <div class="hero-bg">
+      <div class="wave wave-1"></div>
+      <div class="wave wave-2"></div>
+      <div class="wave wave-3"></div>
+      <div class="particles" id="particles"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span>ODS 14 — Vida Submarina</span>
+      </div>
+      <h1 class="hero-title">
+        El océano nos da todo.<br/>
+        <span class="gradient-text">Ahora es momento de devolverle.</span>
+      </h1>
+      <p class="hero-subtitle">
+        Recolectamos plástico marino, lo transformamos en productos sostenibles
+        y generamos empleos en comunidades costeras. Economía circular que limpia
+        el océano y construye el futuro.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#inversionistas" class="btn btn-primary">
+          <i class="fas fa-chart-line"></i> Quiero Invertir
+        </a>
+        <a href="#comunidades" class="btn btn-secondary">
+          <i class="fas fa-users"></i> Únete al Cambio
+        </a>
+        <a href="#productos" class="btn btn-outline">
+          <i class="fas fa-shopping-bag"></i> Ver Productos
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="stat-num" data-target="48500">0</span>
+          <span class="stat-unit">kg</span>
+          <span class="stat-label">Plástico recolectado</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="stat-num" data-target="312">0</span>
+          <span class="stat-label">Empleos generados</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="stat-num" data-target="18">0</span>
+          <span class="stat-label">Comunidades aliadas</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Descubre más</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       SOBRE NOSOTROS
+  ═══════════════════════════════════════════ -->
+  <section id="nosotros" class="section about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nuestra historia</span>
+        <h2>Un problema global.<br/><span class="text-accent">Una solución local.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-problem fade-in">
+          <div class="about-card problem-card">
+            <div class="about-icon">
+              <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <h3>El problema</h3>
+            <p>
+              <strong>8 millones de toneladas</strong> de plástico ingresan al océano cada año.
+              Para 2050, habrá más plástico que peces en el mar. Las comunidades costeras
+              son las primeras víctimas: contaminación, pérdida de biodiversidad y crisis
+              pesquera que destruyen sus medios de vida.
+            </p>
+            <ul class="problem-list">
+              <li><i class="fas fa-times-circle"></i> 700 especies marinas amenazadas</li>
+              <li><i class="fas fa-times-circle"></i> 40% del plástico se usa una sola vez</li>
+              <li><i class="fas fa-times-circle"></i> Microplásticos en el 100% de agua de mar</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-connector fade-in">
+          <div class="connector-line"></div>
+          <div class="connector-icon">
+            <i class="fas fa-recycle"></i>
+          </div>
+          <div class="connector-line"></div>
+        </div>
+
+        <div class="about-solution fade-in">
+          <div class="about-card solution-card">
+            <div class="about-icon solution-icon">
+              <i class="fas fa-leaf"></i>
+            </div>
+            <h3>Nuestra solución</h3>
+            <p>
+              REPLASMAR aplica los principios de <strong>economía circular marina</strong>:
+              convertimos el plástico oceánico en un recurso valioso. Generamos cadenas
+              de valor donde las comunidades costeras son protagonistas, no espectadoras.
+            </p>
+            <ul class="solution-list">
+              <li><i class="fas fa-check-circle"></i> Recolección comunitaria con pago justo</li>
+              <li><i class="fas fa-check-circle"></i> Transformación industrial sostenible</li>
+              <li><i class="fas fa-check-circle"></i> Productos de alto valor con impacto certificado</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="ods-banner fade-in">
+        <span class="ods-label">Alineados con los ODS de la ONU:</span>
+        <div class="ods-badges">
+          <div class="ods-badge ods-14">
+            <span class="ods-num">14</span>
+            <span class="ods-name">Vida Submarina</span>
+          </div>
+          <div class="ods-badge ods-8">
+            <span class="ods-num">8</span>
+            <span class="ods-name">Trabajo Decente</span>
+          </div>
+          <div class="ods-badge ods-12">
+            <span class="ods-num">12</span>
+            <span class="ods-name">Producción Responsable</span>
+          </div>
+          <div class="ods-badge ods-1">
+            <span class="ods-num">1</span>
+            <span class="ods-name">Fin de la Pobreza</span>
+          </div>
+          <div class="ods-badge ods-13">
+            <span class="ods-num">13</span>
+            <span class="ods-name">Acción Climática</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CÓMO FUNCIONA
+  ═══════════════════════════════════════════ -->
+  <section id="como-funciona" class="section process">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">El ciclo virtuoso</span>
+        <h2>¿Cómo funciona<br/><span class="gradient-text">RePlasMar?</span></h2>
+        <p class="section-desc">Un proceso transparente, trazable y transformador en cuatro etapas.</p>
+      </div>
+
+      <div class="process-timeline">
+        <div class="process-step fade-in" data-step="01">
+          <div class="step-visual">
+            <div class="step-icon-wrap">
+              <i class="fas fa-water"></i>
+            </div>
+            <div class="step-number">01</div>
+          </div>
+          <div class="step-content">
+            <h3>Recolección Marina</h3>
+            <p>
+              Trabajamos con <strong>pescadores y comunidades costeras</strong> que recolectan
+              plástico durante sus faenas. Cada kilogramo tiene un precio justo.
+              Operamos en playas, manglares y zonas costeras de alto impacto.
+            </p>
+            <div class="step-tags">
+              <span>Comunidades aliadas</span>
+              <span>Pago justo</span>
+              <span>GPS tracking</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="process-connector">
+          <i class="fas fa-arrow-right"></i>
+        </div>
+
+        <div class="process-step fade-in" data-step="02">
+          <div class="step-visual">
+            <div class="step-icon-wrap">
+              <i class="fas fa-industry"></i>
+            </div>
+            <div class="step-number">02</div>
+          </div>
+          <div class="step-content">
+            <h3>Clasificación y Limpieza</h3>
+            <p>
+              En nuestros <strong>centros de acopio</strong>, el plástico se clasifica
+              por tipo (PET, HDPE, PP), se lava y se prepara. Este proceso también
+              genera empleo local directo para familias de la región.
+            </p>
+            <div class="step-tags">
+              <span>Control de calidad</span>
+              <span>Empleo local</span>
+              <span>Cero residuos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="process-connector">
+          <i class="fas fa-arrow-right"></i>
+        </div>
+
+        <div class="process-step fade-in" data-step="03">
+          <div class="step-visual">
+            <div class="step-icon-wrap">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <div class="step-number">03</div>
+          </div>
+          <div class="step-content">
+            <h3>Transformación Industrial</h3>
+            <p>
+              El plástico se tritura, extruye y moldea en nuestra planta de producción
+              para crear <strong>madera plástica, perfiles, mobiliario y materiales
+              de construcción</strong> con estándares de calidad internacional.
+            </p>
+            <div class="step-tags">
+              <span>Madera plástica</span>
+              <span>Mobiliario</span>
+              <span>Materiales de obra</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="process-connector">
+          <i class="fas fa-arrow-right"></i>
+        </div>
+
+        <div class="process-step fade-in" data-step="04">
+          <div class="step-visual">
+            <div class="step-icon-wrap">
+              <i class="fas fa-store"></i>
+            </div>
+            <div class="step-number">04</div>
+          </div>
+          <div class="step-content">
+            <h3>Comercialización</h3>
+            <p>
+              Vendemos directamente a <strong>empresas, gobiernos, hoteles y
+              consumidores</strong> conscientes. Cada producto tiene un certificado
+              de trazabilidad que muestra el océano del que proviene su materia prima.
+            </p>
+            <div class="step-tags">
+              <span>Certificado de origen</span>
+              <span>B2B + B2C</span>
+              <span>Impacto medible</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       IMPACTO — DASHBOARD
+  ═══════════════════════════════════════════ -->
+  <section id="impacto" class="section impact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Transparencia total</span>
+        <h2>Nuestro impacto<br/><span class="text-accent">en tiempo real</span></h2>
+        <p class="section-desc" style="color: #546e7a;">Cada número representa una acción real, verificable y creciente.</p>
+      </div>
+
+      <div class="impact-dashboard fade-in">
+        <div class="dashboard-header">
+          <div class="dashboard-dot active"></div>
+          <span>Dashboard de impacto — Actualizado en vivo</span>
+          <span class="live-badge"><i class="fas fa-circle"></i> LIVE</span>
+        </div>
+
+        <div class="metrics-grid">
+          <div class="metric-card metric-primary">
+            <div class="metric-icon"><i class="fas fa-recycle"></i></div>
+            <div class="metric-data">
+              <div class="metric-value">
+                <span class="counter" data-target="48500">0</span>
+                <span class="metric-unit">kg</span>
+              </div>
+              <div class="metric-label">Plástico marino recolectado</div>
+              <div class="metric-progress">
+                <div class="progress-bar" style="--progress: 68%"></div>
+                <span>68% de meta anual</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon"><i class="fas fa-users"></i></div>
+            <div class="metric-data">
+              <div class="metric-value">
+                <span class="counter" data-target="312">0</span>
+              </div>
+              <div class="metric-label">Empleos directos generados</div>
+              <div class="metric-trend up"><i class="fas fa-arrow-up"></i> +47 este mes</div>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="metric-data">
+              <div class="metric-value">
+                <span class="counter" data-target="18">0</span>
+              </div>
+              <div class="metric-label">Comunidades costeras aliadas</div>
+              <div class="metric-trend up"><i class="fas fa-arrow-up"></i> +3 nuevas</div>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon"><i class="fas fa-tree"></i></div>
+            <div class="metric-data">
+              <div class="metric-value">
+                <span class="counter" data-target="92400">0</span>
+                <span class="metric-unit">kg CO₂</span>
+              </div>
+              <div class="metric-label">Emisiones evitadas</div>
+              <div class="metric-trend up"><i class="fas fa-arrow-up"></i> Equivale a 4.200 árboles</div>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon"><i class="fas fa-boxes"></i></div>
+            <div class="metric-data">
+              <div class="metric-value">
+                <span class="counter" data-target="1247">0</span>
+              </div>
+              <div class="metric-label">Productos fabricados y vendidos</div>
+              <div class="metric-trend up"><i class="fas fa-arrow-up"></i> +210 este trimestre</div>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="metric-data">
+              <div class="metric-value">
+                <span class="counter" data-target="8600">0</span>
+              </div>
+              <div class="metric-label">Personas educadas en sostenibilidad</div>
+              <div class="metric-trend up"><i class="fas fa-arrow-up"></i> 14 talleres activos</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="impact-chart-section">
+          <div class="chart-card">
+            <h4>Plástico recolectado por mes (kg)</h4>
+            <div class="bar-chart">
+              <div class="bar-group">
+                <div class="bar" style="--height: 45%"><span class="bar-val">3.2k</span></div>
+                <span class="bar-label">Ene</span>
+              </div>
+              <div class="bar-group">
+                <div class="bar" style="--height: 55%"><span class="bar-val">3.9k</span></div>
+                <span class="bar-label">Feb</span>
+              </div>
+              <div class="bar-group">
+                <div class="bar" style="--height: 62%"><span class="bar-val">4.4k</span></div>
+                <span class="bar-label">Mar</span>
+              </div>
+              <div class="bar-group">
+                <div class="bar" style="--height: 58%"><span class="bar-val">4.1k</span></div>
+                <span class="bar-label">Abr</span>
+              </div>
+              <div class="bar-group">
+                <div class="bar" style="--height: 70%"><span class="bar-val">5.0k</span></div>
+                <span class="bar-label">May</span>
+              </div>
+              <div class="bar-group">
+                <div class="bar active" style="--height: 88%"><span class="bar-val">6.2k</span></div>
+                <span class="bar-label">Jun</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-card">
+            <h4>Distribución de plástico reciclado</h4>
+            <div class="donut-chart">
+              <svg viewBox="0 0 160 160" class="donut-svg">
+                <circle cx="80" cy="80" r="60" fill="none" stroke="#e0f2f1" stroke-width="20"/>
+                <circle cx="80" cy="80" r="60" fill="none" stroke="#00897b" stroke-width="20"
+                  stroke-dasharray="226 151" stroke-dashoffset="56" class="donut-segment"/>
+                <circle cx="80" cy="80" r="60" fill="none" stroke="#26c6da" stroke-width="20"
+                  stroke-dasharray="113 264" stroke-dashoffset="-170" class="donut-segment"/>
+                <circle cx="80" cy="80" r="60" fill="none" stroke="#1565c0" stroke-width="20"
+                  stroke-dasharray="38 339" stroke-dashoffset="-283" class="donut-segment"/>
+              </svg>
+              <div class="donut-legend">
+                <div class="legend-item"><span style="background:#00897b"></span>PET 60%</div>
+                <div class="legend-item"><span style="background:#26c6da"></span>HDPE 30%</div>
+                <div class="legend-item"><span style="background:#1565c0"></span>PP 10%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PARA INVERSIONISTAS
+  ═══════════════════════════════════════════ -->
+  <section id="inversionistas" class="section investors">
+    <div class="container">
+      <div class="investors-grid">
+        <div class="investors-content fade-in">
+          <span class="section-tag">Impacto + Retorno</span>
+          <h2>Invierte en el<br/><span class="gradient-text">océano del futuro</span></h2>
+          <p>
+            REPLASMAR es una oportunidad de inversión de impacto con modelo de negocio
+            probado, mercado en crecimiento exponencial y retorno doble: financiero y ambiental.
+          </p>
+
+          <div class="value-props">
+            <div class="value-prop">
+              <div class="vp-icon"><i class="fas fa-shield-alt"></i></div>
+              <div class="vp-text">
+                <strong>Modelo validado</strong>
+                <span>3 años de operación, ingresos reales, clientes recurrentes</span>
+              </div>
+            </div>
+            <div class="value-prop">
+              <div class="vp-icon"><i class="fas fa-globe-americas"></i></div>
+              <div class="vp-text">
+                <strong>Mercado de $450B</strong>
+                <span>La economía circular crece un 12% anual a nivel global</span>
+              </div>
+            </div>
+            <div class="value-prop">
+              <div class="vp-icon"><i class="fas fa-certificate"></i></div>
+              <div class="vp-text">
+                <strong>Impacto certificado</strong>
+                <span>Verificado por organismos independientes y ONU</span>
+              </div>
+            </div>
+            <div class="value-prop">
+              <div class="vp-icon"><i class="fas fa-chart-line"></i></div>
+              <div class="vp-text">
+                <strong>Proyección 3x</strong>
+                <span>Plan de expansión a 5 países en 24 meses</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="investor-cta-group">
+            <a href="#contacto" class="btn btn-primary">
+              <i class="fas fa-handshake"></i> Agendar reunión de inversión
+            </a>
+            <a href="#contacto" class="btn btn-ghost">
+              <i class="fas fa-file-pdf"></i> Descargar Pitch Deck
+            </a>
+          </div>
+        </div>
+
+        <div class="investors-tiers fade-in">
+          <h3 class="tiers-title">Niveles de inversión</h3>
+          <div class="tier-cards">
+            <div class="tier-card">
+              <div class="tier-badge">Entrada</div>
+              <div class="tier-amount">$20.000.000</div>
+              <div class="tier-unit">COP mínimo</div>
+              <ul class="tier-benefits">
+                <li><i class="fas fa-check"></i> Participación en utilidades</li>
+                <li><i class="fas fa-check"></i> Reporte de impacto trimestral</li>
+                <li><i class="fas fa-check"></i> Certificado de impacto ambiental</li>
+                <li><i class="fas fa-check"></i> Acceso a dashboard live</li>
+              </ul>
+            </div>
+            <div class="tier-card tier-featured">
+              <div class="tier-badge featured">Estratégico</div>
+              <div class="tier-amount">$100.000.000</div>
+              <div class="tier-unit">COP mínimo</div>
+              <ul class="tier-benefits">
+                <li><i class="fas fa-check"></i> Todo lo anterior</li>
+                <li><i class="fas fa-check"></i> Seat en Comité Asesor</li>
+                <li><i class="fas fa-check"></i> Co-branding en productos</li>
+                <li><i class="fas fa-check"></i> Visitas a plantas y comunidades</li>
+                <li><i class="fas fa-check"></i> Priority allocation nuevas rondas</li>
+              </ul>
+            </div>
+            <div class="tier-card">
+              <div class="tier-badge">Fundador</div>
+              <div class="tier-amount">$400.000.000+</div>
+              <div class="tier-unit">COP</div>
+              <ul class="tier-benefits">
+                <li><i class="fas fa-check"></i> Todo lo anterior</li>
+                <li><i class="fas fa-check"></i> Equity stake directo</li>
+                <li><i class="fas fa-check"></i> Board observer rights</li>
+                <li><i class="fas fa-check"></i> Naming en programas comunitarios</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PARA COMUNIDADES
+  ═══════════════════════════════════════════ -->
+  <section id="comunidades" class="section communities">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Impacto social real</span>
+        <h2>Tu comunidad,<br/><span class="text-accent">en el centro del cambio</span></h2>
+        <p class="section-desc" style="color: #546e7a;">
+          No somos una empresa que llega a ayudar. Somos una plataforma donde las
+          comunidades costeras son las dueñas del proceso.
+        </p>
+      </div>
+
+      <div class="community-grid">
+        <div class="community-card fade-in">
+          <div class="cc-icon"><i class="fas fa-anchor"></i></div>
+          <h3>Recolectores Marinos</h3>
+          <p>Pescadores y buzos que integran la recolección de plástico a su rutina diaria. Pago por kilogramo, bonos por calidad y acceso a equipos de protección.</p>
+          <div class="cc-pay">
+            <span class="pay-label">Ingreso estimado mensual:</span>
+            <span class="pay-amount">$720.000 – $1.680.000 COP</span>
+          </div>
+          <a href="#contacto" class="btn btn-community">Quiero participar</a>
+        </div>
+
+        <div class="community-card fade-in">
+          <div class="cc-icon"><i class="fas fa-sort-amount-up"></i></div>
+          <h3>Operadores de Acopio</h3>
+          <p>Personal en centros de clasificación y limpieza. Formación técnica incluida, contrato formal, prestaciones completas y plan de carrera.</p>
+          <div class="cc-pay">
+            <span class="pay-label">Ingreso estimado mensual:</span>
+            <span class="pay-amount">$1.400.000 – $2.400.000 COP</span>
+          </div>
+          <a href="#contacto" class="btn btn-community">Quiero participar</a>
+        </div>
+
+        <div class="community-card fade-in">
+          <div class="cc-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>Artesanos y Diseñadores</h3>
+          <p>Crea souvenirs y productos de diseño con nuestros materiales. Vende a través de nuestra plataforma y accede a mercados nacionales e internacionales.</p>
+          <div class="cc-pay">
+            <span class="pay-label">Ingreso estimado mensual:</span>
+            <span class="pay-amount">$800.000 – $3.200.000 COP</span>
+          </div>
+          <a href="#contacto" class="btn btn-community">Quiero participar</a>
+        </div>
+
+        <div class="community-card fade-in">
+          <div class="cc-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <h3>Educadores Ambientales</h3>
+          <p>Facilita talleres en escuelas y organizaciones comunitarias. Formación certificada, materiales didácticos y reconocimiento de impacto educativo.</p>
+          <div class="cc-pay">
+            <span class="pay-label">Ingreso estimado mensual:</span>
+            <span class="pay-amount">$600.000 – $1.400.000 COP</span>
+          </div>
+          <a href="#contacto" class="btn btn-community">Quiero participar</a>
+        </div>
+      </div>
+
+      <div class="community-map-banner fade-in">
+        <div class="map-banner-content">
+          <i class="fas fa-map-marked-alt map-banner-icon"></i>
+          <div>
+            <h3>¿Hay una comunidad costera cerca de ti?</h3>
+            <p>Estamos expandiendo nuestra red. Si eres líder comunitario o representante de una organización costera, hablemos.</p>
+          </div>
+          <a href="#contacto" class="btn btn-primary">Conectar ahora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PRODUCTOS
+  ═══════════════════════════════════════════ -->
+  <section id="productos" class="section products">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Catálogo sostenible</span>
+        <h2>Productos que<br/><span class="gradient-text">transforman el océano</span></h2>
+        <p class="section-desc">Cada producto tiene una historia. La historia del plástico que rescatamos del mar.</p>
+      </div>
+
+      <div class="product-filters">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="madera">Madera Plástica</button>
+        <button class="filter-btn" data-filter="mobiliario">Mobiliario</button>
+        <button class="filter-btn" data-filter="souvenirs">Souvenirs</button>
+        <button class="filter-btn" data-filter="construccion">Construcción</button>
+      </div>
+
+      <div class="products-grid">
+        <div class="product-card fade-in" data-category="madera">
+          <div class="product-img">
+            <div class="product-img-placeholder madera">
+              <i class="fas fa-border-all"></i>
+            </div>
+            <div class="product-badge">Más vendido</div>
+            <div class="product-impact-tag">
+              <i class="fas fa-recycle"></i> 12 kg de plástico marino
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Madera Plástica</span>
+            <h4>Tablón estándar 200×20×4 cm</h4>
+            <p>Resistente al agua, la sal y los insectos. Vida útil 50+ años. Ideal para muelles, terrazas y obra pública.</p>
+            <div class="product-footer">
+              <span class="product-price">$180.000 COP</span>
+              <a href="#contacto" class="btn-product">Cotizar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card fade-in" data-category="mobiliario">
+          <div class="product-img">
+            <div class="product-img-placeholder mobiliario">
+              <i class="fas fa-chair"></i>
+            </div>
+            <div class="product-impact-tag">
+              <i class="fas fa-recycle"></i> 28 kg de plástico marino
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Mobiliario</span>
+            <h4>Banca de parque oceánica</h4>
+            <p>Diseño moderno para espacios públicos. Colores personalizables. Mantenimiento cero. Certificado de trazabilidad incluido.</p>
+            <div class="product-footer">
+              <span class="product-price">$1.120.000 COP</span>
+              <a href="#contacto" class="btn-product">Cotizar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card fade-in" data-category="souvenirs">
+          <div class="product-img">
+            <div class="product-img-placeholder souvenirs">
+              <i class="fas fa-gift"></i>
+            </div>
+            <div class="product-badge new">Nuevo</div>
+            <div class="product-impact-tag">
+              <i class="fas fa-recycle"></i> 0.3 kg de plástico marino
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Souvenirs</span>
+            <h4>Colección "Mar Adentro"</h4>
+            <p>Figuras artesanales, llaveros y decoración elaborados con plástico oceánico. Perfectos como regalo corporativo sostenible.</p>
+            <div class="product-footer">
+              <span class="product-price">Desde $32.000 COP</span>
+              <a href="#contacto" class="btn-product">Ver colección</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card fade-in" data-category="construccion">
+          <div class="product-img">
+            <div class="product-img-placeholder construccion">
+              <i class="fas fa-hard-hat"></i>
+            </div>
+            <div class="product-impact-tag">
+              <i class="fas fa-recycle"></i> 45 kg de plástico marino
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Construcción</span>
+            <h4>Poste de cerramiento 2.5m</h4>
+            <p>Reemplaza postes de madera o metal. Ideal para cercas, infraestructura costera y proyectos de construcción sostenible.</p>
+            <div class="product-footer">
+              <span class="product-price">$128.000 COP</span>
+              <a href="#contacto" class="btn-product">Cotizar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card fade-in" data-category="mobiliario">
+          <div class="product-img">
+            <div class="product-img-placeholder mobiliario2">
+              <i class="fas fa-table"></i>
+            </div>
+            <div class="product-impact-tag">
+              <i class="fas fa-recycle"></i> 35 kg de plástico marino
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Mobiliario</span>
+            <h4>Mesa plegable exterior</h4>
+            <p>Resistente a condiciones extremas. Para restaurantes, playas y espacios al aire libre. Disponible en varios colores.</p>
+            <div class="product-footer">
+              <span class="product-price">$780.000 COP</span>
+              <a href="#contacto" class="btn-product">Cotizar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card fade-in" data-category="construccion">
+          <div class="product-img">
+            <div class="product-img-placeholder madera2">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <div class="product-impact-tag">
+              <i class="fas fa-recycle"></i> 20 kg de plástico marino
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Construcción</span>
+            <h4>Deck de terraza modular</h4>
+            <p>Sistema de instalación simple tipo "click". Para terrazas, marinas y proyectos residenciales. Garantía 25 años.</p>
+            <div class="product-footer">
+              <span class="product-price">$260.000 COP/m²</span>
+              <a href="#contacto" class="btn-product">Cotizar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="products-cta fade-in">
+        <p>¿Buscas un producto personalizado o un volumen especial?</p>
+        <a href="#contacto" class="btn btn-primary">
+          <i class="fas fa-envelope"></i> Solicitar cotización corporativa
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       EDUCACIÓN
+  ═══════════════════════════════════════════ -->
+  <section id="educacion" class="section education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Conocimiento que transforma</span>
+        <h2>Aprende sobre<br/><span class="text-accent">economía circular</span></h2>
+      </div>
+
+      <div class="edu-grid">
+        <div class="edu-featured fade-in">
+          <div class="edu-featured-card">
+            <div class="edu-tag">Guía gratuita</div>
+            <h3>¿Qué es la economía circular marina?</h3>
+            <p>
+              La economía circular no es solo reciclar. Es rediseñar sistemas completos
+              para que los materiales nunca se conviertan en residuos. En el contexto
+              marino, significa cerrar el ciclo entre el océano, las comunidades y la industria.
+            </p>
+            <div class="eco-principles">
+              <div class="principle">
+                <i class="fas fa-sync-alt"></i>
+                <span>Mantener materiales en uso</span>
+              </div>
+              <div class="principle">
+                <i class="fas fa-leaf"></i>
+                <span>Regenerar sistemas naturales</span>
+              </div>
+              <div class="principle">
+                <i class="fas fa-minus-circle"></i>
+                <span>Eliminar residuos y contaminación</span>
+              </div>
+            </div>
+            <a href="#contacto" class="btn btn-primary">Descargar guía gratuita</a>
+          </div>
+        </div>
+
+        <div class="edu-resources fade-in">
+          <div class="resource-card">
+            <div class="resource-icon"><i class="fas fa-play-circle"></i></div>
+            <div class="resource-info">
+              <span class="resource-type">Video — 8 min</span>
+              <h4>El ciclo del plástico oceánico explicado</h4>
+              <p>Desde la playa hasta el producto final.</p>
+            </div>
+          </div>
+          <div class="resource-card">
+            <div class="resource-icon"><i class="fas fa-book-open"></i></div>
+            <div class="resource-info">
+              <span class="resource-type">Artículo</span>
+              <h4>Cómo las empresas pueden adoptar economía circular</h4>
+              <p>Casos reales y pasos prácticos.</p>
+            </div>
+          </div>
+          <div class="resource-card">
+            <div class="resource-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+            <div class="resource-info">
+              <span class="resource-type">Taller — Online</span>
+              <h4>Sostenibilidad para comunidades costeras</h4>
+              <p>Próxima sesión: 15 de julio. Cupos limitados.</p>
+            </div>
+          </div>
+          <div class="resource-card">
+            <div class="resource-icon"><i class="fas fa-file-alt"></i></div>
+            <div class="resource-info">
+              <span class="resource-type">Informe 2024</span>
+              <h4>Estado del plástico oceánico en Latinoamérica</h4>
+              <p>Datos, tendencias y oportunidades.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="edu-school-banner fade-in">
+        <div class="school-banner-content">
+          <i class="fas fa-school"></i>
+          <div>
+            <h3>Programa Escolar REPLASMAR</h3>
+            <p>Llevamos talleres de sostenibilidad a escuelas y universidades costeras. Gratuito para instituciones de comunidades vulnerables.</p>
+          </div>
+          <a href="#contacto" class="btn btn-outline-white">Solicitar taller</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       GALERÍA
+  ═══════════════════════════════════════════ -->
+  <section id="galeria" class="section gallery">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Detrás del proceso</span>
+        <h2>El océano,<br/><span class="gradient-text">la gente, el cambio</span></h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-large fade-in">
+          <div class="gallery-placeholder g1">
+            <!-- Ilustración: Recolección en playa -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 240" preserveAspectRatio="xMidYMid slice" style="position:absolute;inset:0;width:100%;height:100%;">
+              <defs>
+                <linearGradient id="g1sky" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#071c35"/>
+                  <stop offset="100%" stop-color="#0d3b6e"/>
+                </linearGradient>
+                <linearGradient id="g1sea" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#0d3b6e"/>
+                  <stop offset="100%" stop-color="#051525"/>
+                </linearGradient>
+              </defs>
+              <rect width="560" height="240" fill="url(#g1sky)"/>
+              <!-- Estrellas -->
+              <circle cx="55" cy="22" r="1.2" fill="rgba(255,255,255,.6)"/>
+              <circle cx="130" cy="12" r="1" fill="rgba(255,255,255,.5)"/>
+              <circle cx="210" cy="35" r="1.4" fill="rgba(255,255,255,.45)"/>
+              <circle cx="345" cy="16" r="1" fill="rgba(255,255,255,.55)"/>
+              <circle cx="430" cy="28" r="1.2" fill="rgba(255,255,255,.5)"/>
+              <circle cx="505" cy="8" r="1" fill="rgba(255,255,255,.65)"/>
+              <circle cx="280" cy="42" r="0.9" fill="rgba(255,255,255,.4)"/>
+              <circle cx="80" cy="48" r="0.8" fill="rgba(255,255,255,.35)"/>
+              <!-- Luna -->
+              <circle cx="488" cy="40" r="22" fill="rgba(255,225,140,.08)"/>
+              <circle cx="488" cy="40" r="14" fill="rgba(255,225,140,.16)"/>
+              <!-- Océano -->
+              <path d="M 0 138 Q 140 124 280 140 Q 420 156 560 138 L560 240 L0 240Z" fill="url(#g1sea)"/>
+              <!-- Olas -->
+              <path d="M 0 134 Q 93 120 186 134 Q 280 148 373 134 Q 467 120 560 134" stroke="rgba(0,188,212,.5)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+              <path d="M 0 152 Q 100 142 200 152 Q 300 162 400 152 Q 480 144 560 152" stroke="rgba(0,188,212,.28)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <!-- Playa -->
+              <path d="M 0 163 Q 140 155 280 163 Q 420 171 560 163 L560 240 L0 240Z" fill="rgba(195,165,105,.2)"/>
+              <!-- Plásticos en playa -->
+              <ellipse cx="72" cy="176" rx="14" ry="5" fill="rgba(0,188,212,.5)"/>
+              <rect x="182" y="170" width="18" height="7" rx="3.5" fill="rgba(255,255,255,.28)"/>
+              <ellipse cx="338" cy="177" rx="11" ry="4" fill="rgba(0,188,212,.38)"/>
+              <rect x="428" y="172" width="15" height="6" rx="3" fill="rgba(255,255,255,.22)"/>
+              <ellipse cx="245" cy="182" rx="8" ry="3.5" fill="rgba(255,255,255,.2)"/>
+              <!-- Persona 1 — agachada recogiendo -->
+              <g transform="translate(162,157)">
+                <circle cx="0" cy="-32" r="9" fill="rgba(255,255,255,.92)"/>
+                <path d="M0,-23 Q-9,-9 -24,3" stroke="rgba(255,255,255,.92)" stroke-width="5" fill="none" stroke-linecap="round"/>
+                <path d="M-13,-15 Q-26,-2 -30,15" stroke="rgba(255,255,255,.88)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+                <path d="M-4,-16 Q4,-5 8,5" stroke="rgba(255,255,255,.88)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+                <path d="M0,-23 Q5,-5 8,13" stroke="rgba(255,255,255,.92)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+                <path d="M0,-23 Q-3,-5 -1,13" stroke="rgba(255,255,255,.92)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+                <!-- Bolsa de recolección -->
+                <path d="M-28,12 Q-20,26 -8,22 Q2,18 -1,6" fill="rgba(0,188,212,.75)"/>
+              </g>
+              <!-- Persona 2 — de pie en fondo -->
+              <g transform="translate(365,160)">
+                <circle cx="0" cy="-22" r="6" fill="rgba(255,255,255,.55)"/>
+                <line x1="0" y1="-16" x2="0" y2="7" stroke="rgba(255,255,255,.55)" stroke-width="3.5" stroke-linecap="round"/>
+                <line x1="0" y1="-8" x2="11" y2="-3" stroke="rgba(255,255,255,.5)" stroke-width="2.5" stroke-linecap="round"/>
+                <line x1="0" y1="7" x2="-5" y2="20" stroke="rgba(255,255,255,.55)" stroke-width="3" stroke-linecap="round"/>
+                <line x1="0" y1="7" x2="5" y2="20" stroke="rgba(255,255,255,.55)" stroke-width="3" stroke-linecap="round"/>
+              </g>
+              <!-- Badge ODS 14 -->
+              <rect x="16" y="15" width="88" height="26" rx="13" fill="rgba(0,30,60,.55)" stroke="rgba(0,188,212,.55)" stroke-width="1"/>
+              <text x="60" y="33" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="10.5" font-weight="700" fill="#80deea">ODS 14</text>
+            </svg>
+            <div class="gallery-overlay">
+              <i class="fas fa-water"></i>
+              <span>Recolección en playa Barú, Colombia</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item fade-in">
+          <div class="gallery-placeholder g2">
+            <!-- Ilustración: Comunidad de pescadores -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" preserveAspectRatio="xMidYMid slice" style="position:absolute;inset:0;width:100%;height:100%;">
+              <defs>
+                <linearGradient id="g2bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#102a4a"/>
+                  <stop offset="100%" stop-color="#051a34"/>
+                </linearGradient>
+              </defs>
+              <rect width="240" height="240" fill="url(#g2bg)"/>
+              <!-- Cielo con gradiente puesta de sol -->
+              <path d="M0,0 L240,0 L240,130 Q120,115 0,130Z" fill="rgba(25,75,130,.5)"/>
+              <!-- Sol en el horizonte -->
+              <circle cx="120" cy="132" r="28" fill="rgba(255,160,40,.2)"/>
+              <circle cx="120" cy="132" r="18" fill="rgba(255,160,40,.3)"/>
+              <circle cx="120" cy="132" r="10" fill="rgba(255,180,60,.45)"/>
+              <!-- Reflejo del sol en agua -->
+              <path d="M100,135 Q120,142 140,135" stroke="rgba(255,160,40,.5)" stroke-width="2.5" fill="none"/>
+              <path d="M108,142 Q120,148 132,142" stroke="rgba(255,160,40,.3)" stroke-width="2" fill="none"/>
+              <!-- Agua -->
+              <path d="M0,135 Q60,128 120,135 Q180,142 240,135 L240,240 L0,240Z" fill="rgba(5,25,55,.85)"/>
+              <!-- Olas suaves -->
+              <path d="M0,140 Q40,134 80,140 Q120,146 160,140 Q200,134 240,140" stroke="rgba(0,188,212,.35)" stroke-width="1.5" fill="none"/>
+              <!-- Muelle/embarcadero -->
+              <rect x="88" y="118" width="64" height="8" rx="2" fill="rgba(80,55,30,.9)"/>
+              <rect x="92" y="126" width="6" height="30" rx="2" fill="rgba(70,48,25,.85)"/>
+              <rect x="142" y="126" width="6" height="30" rx="2" fill="rgba(70,48,25,.85)"/>
+              <rect x="108" y="122" width="5" height="38" rx="2" fill="rgba(70,48,25,.75)"/>
+              <rect x="127" y="122" width="5" height="38" rx="2" fill="rgba(70,48,25,.75)"/>
+              <!-- Barco pequeño -->
+              <path d="M50,158 Q70,150 90,158 Q90,168 50,168Z" fill="rgba(120,80,40,.8)"/>
+              <line x1="70" y1="158" x2="70" y2="130" stroke="rgba(180,140,80,.7)" stroke-width="1.5"/>
+              <path d="M70,130 L88,148 L70,148Z" fill="rgba(255,255,255,.2)"/>
+              <!-- Personas en el muelle -->
+              <g transform="translate(98,110)">
+                <circle cx="0" cy="-12" r="5" fill="rgba(255,255,255,.85)"/>
+                <line x1="0" y1="-7" x2="0" y2="6" stroke="rgba(255,255,255,.85)" stroke-width="3.5" stroke-linecap="round"/>
+                <line x1="0" y1="-2" x2="-8" y2="2" stroke="rgba(255,255,255,.75)" stroke-width="2.5" stroke-linecap="round"/>
+                <line x1="0" y1="6" x2="-3" y2="16" stroke="rgba(255,255,255,.85)" stroke-width="3" stroke-linecap="round"/>
+                <line x1="0" y1="6" x2="3" y2="16" stroke="rgba(255,255,255,.85)" stroke-width="3" stroke-linecap="round"/>
+              </g>
+              <g transform="translate(118,108)">
+                <circle cx="0" cy="-12" r="5" fill="rgba(255,255,255,.75)"/>
+                <line x1="0" y1="-7" x2="0" y2="6" stroke="rgba(255,255,255,.75)" stroke-width="3.5" stroke-linecap="round"/>
+                <line x1="0" y1="-1" x2="8" y2="3" stroke="rgba(255,255,255,.65)" stroke-width="2.5" stroke-linecap="round"/>
+                <line x1="0" y1="6" x2="-3" y2="16" stroke="rgba(255,255,255,.75)" stroke-width="3" stroke-linecap="round"/>
+                <line x1="0" y1="6" x2="3" y2="16" stroke="rgba(255,255,255,.75)" stroke-width="3" stroke-linecap="round"/>
+              </g>
+              <g transform="translate(138,112)">
+                <circle cx="0" cy="-10" r="4.5" fill="rgba(255,255,255,.6)"/>
+                <line x1="0" y1="-6" x2="0" y2="5" stroke="rgba(255,255,255,.6)" stroke-width="3" stroke-linecap="round"/>
+                <line x1="0" y1="5" x2="-3" y2="13" stroke="rgba(255,255,255,.6)" stroke-width="2.5" stroke-linecap="round"/>
+                <line x1="0" y1="5" x2="3" y2="13" stroke="rgba(255,255,255,.6)" stroke-width="2.5" stroke-linecap="round"/>
+              </g>
+              <!-- Estrellas -->
+              <circle cx="30" cy="20" r="1" fill="rgba(255,255,255,.5)"/>
+              <circle cx="80" cy="40" r="1.2" fill="rgba(255,255,255,.45)"/>
+              <circle cx="190" cy="25" r="1" fill="rgba(255,255,255,.55)"/>
+              <circle cx="210" cy="55" r="1.1" fill="rgba(255,255,255,.4)"/>
+            </svg>
+            <div class="gallery-overlay">
+              <i class="fas fa-users"></i>
+              <span>Comunidad de pescadores, Pacífico</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item fade-in">
+          <div class="gallery-placeholder g3">
+            <!-- Ilustración: Planta de transformación -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" preserveAspectRatio="xMidYMid slice" style="position:absolute;inset:0;width:100%;height:100%;">
+              <defs>
+                <linearGradient id="g3bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#0a2010"/>
+                  <stop offset="100%" stop-color="#051508"/>
+                </linearGradient>
+              </defs>
+              <rect width="240" height="240" fill="url(#g3bg)"/>
+              <!-- Cielo nocturno -->
+              <circle cx="195" cy="35" r="1" fill="rgba(255,255,255,.5)"/>
+              <circle cx="40" cy="18" r="1.2" fill="rgba(255,255,255,.45)"/>
+              <circle cx="110" cy="28" r="1" fill="rgba(255,255,255,.4)"/>
+              <!-- Edificio principal fábrica -->
+              <rect x="30" y="100" width="180" height="130" fill="rgba(15,40,20,.95)"/>
+              <rect x="30" y="100" width="180" height="6" fill="rgba(30,80,40,.8)"/>
+              <!-- Techo dentado -->
+              <path d="M30,100 L55,75 L80,100 L105,75 L130,100 L155,75 L180,100 L210,100 L210,106 L30,106Z" fill="rgba(20,55,25,.9)"/>
+              <!-- Chimeneas -->
+              <rect x="60" y="55" width="12" height="50" rx="3" fill="rgba(35,70,40,.9)"/>
+              <rect x="160" y="45" width="14" height="60" rx="3" fill="rgba(35,70,40,.9)"/>
+              <!-- Vapor/humo (limpio, blanco) -->
+              <ellipse cx="66" cy="50" rx="8" ry="12" fill="rgba(255,255,255,.08)"/>
+              <ellipse cx="70" cy="38" rx="6" ry="10" fill="rgba(255,255,255,.06)"/>
+              <ellipse cx="167" cy="40" rx="9" ry="13" fill="rgba(255,255,255,.08)"/>
+              <ellipse cx="171" cy="27" rx="7" ry="10" fill="rgba(255,255,255,.05)"/>
+              <!-- Ventanas iluminadas -->
+              <rect x="45" y="120" width="22" height="18" rx="2" fill="rgba(0,188,212,.35)"/>
+              <rect x="80" y="120" width="22" height="18" rx="2" fill="rgba(0,188,212,.3)"/>
+              <rect x="138" y="120" width="22" height="18" rx="2" fill="rgba(0,188,212,.3)"/>
+              <rect x="173" y="120" width="22" height="18" rx="2" fill="rgba(0,188,212,.25)"/>
+              <rect x="45" y="150" width="22" height="18" rx="2" fill="rgba(38,166,154,.25)"/>
+              <rect x="80" y="150" width="22" height="18" rx="2" fill="rgba(38,166,154,.2)"/>
+              <rect x="173" y="150" width="22" height="18" rx="2" fill="rgba(38,166,154,.2)"/>
+              <!-- Símbolo de reciclaje en edificio -->
+              <circle cx="138" cy="160" r="20" fill="rgba(0,137,123,.25)" stroke="rgba(0,188,212,.4)" stroke-width="1.5"/>
+              <text x="138" y="166" text-anchor="middle" font-size="16" fill="rgba(128,222,234,.75)">♻</text>
+              <!-- Puerta -->
+              <rect x="105" y="180" width="30" height="50" rx="3" fill="rgba(10,30,15,.95)" stroke="rgba(0,188,212,.3)" stroke-width="1"/>
+              <!-- Cinta transportadora -->
+              <path d="M0,210 Q40,206 80,210" stroke="rgba(0,137,123,.6)" stroke-width="4" fill="none" stroke-linecap="round"/>
+              <rect x="10" y="206" width="8" height="8" rx="1" fill="rgba(0,188,212,.5)"/>
+              <rect x="28" y="206" width="8" height="8" rx="1" fill="rgba(0,188,212,.4)"/>
+              <rect x="46" y="207" width="8" height="8" rx="1" fill="rgba(0,188,212,.45)"/>
+              <!-- Luz verde de operación -->
+              <circle cx="200" cy="108" r="4" fill="rgba(0,230,120,.7)"/>
+              <circle cx="200" cy="108" r="7" fill="rgba(0,230,120,.2)"/>
+            </svg>
+            <div class="gallery-overlay">
+              <i class="fas fa-industry"></i>
+              <span>Planta de transformación RePlasMar</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item fade-in">
+          <div class="gallery-placeholder g4">
+            <!-- Ilustración: Tablones de madera plástica -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" preserveAspectRatio="xMidYMid slice" style="position:absolute;inset:0;width:100%;height:100%;">
+              <defs>
+                <linearGradient id="g4bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#1a2530"/>
+                  <stop offset="100%" stop-color="#0d1820"/>
+                </linearGradient>
+                <linearGradient id="g4plank" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#2e7d5a"/>
+                  <stop offset="100%" stop-color="#1b5e40"/>
+                </linearGradient>
+                <linearGradient id="g4plank2" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#256650"/>
+                  <stop offset="100%" stop-color="#184e38"/>
+                </linearGradient>
+              </defs>
+              <rect width="240" height="240" fill="url(#g4bg)"/>
+              <!-- Tablones apilados — vista isométrica sugerida -->
+              <!-- Tablón fondo (más oscuro) -->
+              <rect x="15" y="185" width="210" height="20" rx="3" fill="rgba(18,55,38,.9)"/>
+              <line x1="15" y1="190" x2="225" y2="190" stroke="rgba(0,100,60,.3)" stroke-width="1"/>
+              <line x1="15" y1="196" x2="225" y2="196" stroke="rgba(0,100,60,.2)" stroke-width="1"/>
+              <!-- Tablón 6 -->
+              <rect x="15" y="168" width="210" height="20" rx="3" fill="url(#g4plank2)"/>
+              <line x1="15" y1="173" x2="225" y2="173" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+              <line x1="15" y1="179" x2="225" y2="179" stroke="rgba(255,255,255,.04)" stroke-width="1"/>
+              <!-- Tablón 5 -->
+              <rect x="15" y="150" width="210" height="20" rx="3" fill="url(#g4plank)"/>
+              <line x1="15" y1="155" x2="225" y2="155" stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+              <line x1="15" y1="161" x2="225" y2="161" stroke="rgba(255,255,255,.04)" stroke-width="1"/>
+              <!-- Tablón 4 -->
+              <rect x="15" y="132" width="210" height="20" rx="3" fill="url(#g4plank2)"/>
+              <line x1="15" y1="137" x2="225" y2="137" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+              <line x1="15" y1="143" x2="225" y2="143" stroke="rgba(255,255,255,.04)" stroke-width="1"/>
+              <!-- Tablón 3 -->
+              <rect x="15" y="114" width="210" height="20" rx="3" fill="url(#g4plank)"/>
+              <line x1="15" y1="119" x2="225" y2="119" stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+              <line x1="15" y1="125" x2="225" y2="125" stroke="rgba(255,255,255,.04)" stroke-width="1"/>
+              <!-- Tablón 2 -->
+              <rect x="15" y="96" width="210" height="20" rx="3" fill="url(#g4plank2)"/>
+              <line x1="15" y1="101" x2="225" y2="101" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+              <line x1="15" y1="107" x2="225" y2="107" stroke="rgba(255,255,255,.04)" stroke-width="1"/>
+              <!-- Tablón 1 (arriba, más iluminado) -->
+              <rect x="15" y="78" width="210" height="20" rx="3" fill="rgba(46,125,90,.95)"/>
+              <line x1="15" y1="83" x2="225" y2="83" stroke="rgba(255,255,255,.1)" stroke-width="1"/>
+              <line x1="15" y1="89" x2="225" y2="89" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+              <!-- Medición/regla lateral -->
+              <line x1="230" y1="78" x2="230" y2="205" stroke="rgba(0,188,212,.4)" stroke-width="1.5"/>
+              <line x1="225" y1="78" x2="235" y2="78" stroke="rgba(0,188,212,.4)" stroke-width="1.5"/>
+              <line x1="225" y1="205" x2="235" y2="205" stroke="rgba(0,188,212,.4)" stroke-width="1.5"/>
+              <text x="237" y="145" font-family="Montserrat,Arial,sans-serif" font-size="9" fill="rgba(0,188,212,.7)" font-weight="600">200cm</text>
+              <!-- Badge reciclado -->
+              <rect x="70" y="30" width="100" height="34" rx="17" fill="rgba(0,50,30,.7)" stroke="rgba(0,188,212,.5)" stroke-width="1.5"/>
+              <text x="120" y="46" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="10" font-weight="700" fill="rgba(128,222,234,.9)">100% Reciclado</text>
+              <text x="120" y="58" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="8" fill="rgba(128,222,234,.6)">Plástico marino</text>
+              <!-- Personas inspeccionando en el fondo -->
+              <g transform="translate(42,72)">
+                <circle cx="0" cy="-12" r="5" fill="rgba(255,255,255,.5)"/>
+                <line x1="0" y1="-7" x2="0" y2="5" stroke="rgba(255,255,255,.5)" stroke-width="3" stroke-linecap="round"/>
+              </g>
+            </svg>
+            <div class="gallery-overlay">
+              <i class="fas fa-boxes"></i>
+              <span>Tablones de madera plástica</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item fade-in">
+          <div class="gallery-placeholder g5">
+            <!-- Ilustración: Taller educativo -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" preserveAspectRatio="xMidYMid slice" style="position:absolute;inset:0;width:100%;height:100%;">
+              <defs>
+                <linearGradient id="g5bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#0d2e16"/>
+                  <stop offset="100%" stop-color="#071a0c"/>
+                </linearGradient>
+              </defs>
+              <rect width="240" height="240" fill="url(#g5bg)"/>
+              <!-- Aula — paredes -->
+              <rect x="10" y="40" width="220" height="180" rx="4" fill="rgba(15,45,22,.9)"/>
+              <rect x="10" y="40" width="220" height="4" fill="rgba(30,90,45,.8)"/>
+              <!-- Pizarrón/tablero -->
+              <rect x="30" y="55" width="180" height="90" rx="4" fill="rgba(8,30,14,.95)"/>
+              <rect x="30" y="55" width="180" height="3" rx="2" fill="rgba(0,137,123,.6)"/>
+              <rect x="30" y="142" width="180" height="3" rx="2" fill="rgba(0,137,123,.6)"/>
+              <!-- Contenido del tablero: símbolo de reciclaje + texto -->
+              <circle cx="80" cy="100" r="28" fill="rgba(0,137,123,.18)" stroke="rgba(0,188,212,.35)" stroke-width="1.5"/>
+              <text x="80" y="107" text-anchor="middle" font-size="28" fill="rgba(128,222,234,.7)">♻</text>
+              <!-- Ondas en el tablero -->
+              <path d="M120,88 Q135,82 150,88 Q165,94 180,88" stroke="rgba(0,188,212,.5)" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <path d="M120,97 Q135,91 150,97 Q165,103 180,97" stroke="rgba(0,188,212,.35)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <!-- Texto en tablero -->
+              <line x1="120" y1="110" x2="195" y2="110" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
+              <line x1="120" y1="120" x2="185" y2="120" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+              <line x1="120" y1="130" x2="190" y2="130" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+              <!-- Soporte del tablero -->
+              <line x1="60" y1="145" x2="55" y2="165" stroke="rgba(50,80,55,.9)" stroke-width="4" stroke-linecap="round"/>
+              <line x1="180" y1="145" x2="185" y2="165" stroke="rgba(50,80,55,.9)" stroke-width="4" stroke-linecap="round"/>
+              <!-- Docente de pie -->
+              <g transform="translate(22,140)">
+                <circle cx="0" cy="-18" r="7" fill="rgba(255,255,255,.8)"/>
+                <line x1="0" y1="-11" x2="0" y2="8" stroke="rgba(255,255,255,.8)" stroke-width="4.5" stroke-linecap="round"/>
+                <line x1="0" y1="-4" x2="12" y2="4" stroke="rgba(255,255,255,.7)" stroke-width="3" stroke-linecap="round"/>
+                <line x1="0" y1="8" x2="-4" y2="22" stroke="rgba(255,255,255,.8)" stroke-width="4" stroke-linecap="round"/>
+                <line x1="0" y1="8" x2="4" y2="22" stroke="rgba(255,255,255,.8)" stroke-width="4" stroke-linecap="round"/>
+              </g>
+              <!-- Estudiantes sentados (siluetas) -->
+              <g transform="translate(80,175)">
+                <circle cx="0" cy="-12" r="6" fill="rgba(255,255,255,.6)"/>
+                <rect x="-10" y="-6" width="20" height="14" rx="3" fill="rgba(255,255,255,.55)"/>
+                <rect x="-18" y="8" width="36" height="6" rx="2" fill="rgba(38,100,55,.8)"/>
+              </g>
+              <g transform="translate(120,175)">
+                <circle cx="0" cy="-12" r="6" fill="rgba(255,255,255,.55)"/>
+                <rect x="-10" y="-6" width="20" height="14" rx="3" fill="rgba(255,255,255,.5)"/>
+                <rect x="-18" y="8" width="36" height="6" rx="2" fill="rgba(38,100,55,.8)"/>
+              </g>
+              <g transform="translate(160,175)">
+                <circle cx="0" cy="-12" r="6" fill="rgba(255,255,255,.5)"/>
+                <rect x="-10" y="-6" width="20" height="14" rx="3" fill="rgba(255,255,255,.45)"/>
+                <rect x="-18" y="8" width="36" height="6" rx="2" fill="rgba(38,100,55,.8)"/>
+              </g>
+              <g transform="translate(200,175)">
+                <circle cx="0" cy="-12" r="6" fill="rgba(255,255,255,.45)"/>
+                <rect x="-10" y="-6" width="20" height="14" rx="3" fill="rgba(255,255,255,.4)"/>
+                <rect x="-18" y="8" width="36" height="6" rx="2" fill="rgba(38,100,55,.8)"/>
+              </g>
+              <!-- Badge -->
+              <rect x="62" y="12" width="116" height="22" rx="11" fill="rgba(0,30,15,.7)" stroke="rgba(0,188,212,.45)" stroke-width="1"/>
+              <text x="120" y="27" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="9.5" font-weight="700" fill="rgba(128,222,234,.85)">Programa Escolar</text>
+            </svg>
+            <div class="gallery-overlay">
+              <i class="fas fa-child"></i>
+              <span>Taller educativo, escuela costera</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item fade-in">
+          <div class="gallery-placeholder g6">
+            <!-- Ilustración: Biodiversidad marina -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" preserveAspectRatio="xMidYMid slice" style="position:absolute;inset:0;width:100%;height:100%;">
+              <defs>
+                <linearGradient id="g6bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#041428"/>
+                  <stop offset="60%" stop-color="#062040"/>
+                  <stop offset="100%" stop-color="#020e1c"/>
+                </linearGradient>
+                <linearGradient id="g6light" x1="0.5" y1="0" x2="0.5" y2="1">
+                  <stop offset="0%" stop-color="rgba(0,188,212,.3)"/>
+                  <stop offset="100%" stop-color="rgba(0,188,212,0)"/>
+                </linearGradient>
+              </defs>
+              <rect width="240" height="240" fill="url(#g6bg)"/>
+              <!-- Rayos de luz desde la superficie -->
+              <path d="M80,0 Q100,60 90,120" stroke="url(#g6light)" stroke-width="18" fill="none" opacity="0.4"/>
+              <path d="M130,0 Q150,70 140,140" stroke="url(#g6light)" stroke-width="12" fill="none" opacity="0.25"/>
+              <path d="M175,0 Q185,50 178,100" stroke="url(#g6light)" stroke-width="8" fill="none" opacity="0.2"/>
+              <!-- Burbujas -->
+              <circle cx="55" cy="180" r="4" fill="none" stroke="rgba(0,188,212,.4)" stroke-width="1.2"/>
+              <circle cx="62" cy="155" r="3" fill="none" stroke="rgba(0,188,212,.35)" stroke-width="1"/>
+              <circle cx="50" cy="130" r="5" fill="none" stroke="rgba(0,188,212,.3)" stroke-width="1"/>
+              <circle cx="58" cy="108" r="2.5" fill="none" stroke="rgba(0,188,212,.3)" stroke-width="1"/>
+              <circle cx="195" cy="170" r="3.5" fill="none" stroke="rgba(0,188,212,.35)" stroke-width="1"/>
+              <circle cx="202" cy="148" r="2" fill="none" stroke="rgba(0,188,212,.3)" stroke-width="1"/>
+              <circle cx="188" cy="125" r="4" fill="none" stroke="rgba(0,188,212,.28)" stroke-width="1"/>
+              <!-- Pez grande - derecha -->
+              <g transform="translate(155,100)">
+                <ellipse cx="0" cy="0" rx="28" ry="14" fill="rgba(0,188,212,.7)"/>
+                <path d="M-28,0 L-42,-12 L-42,12Z" fill="rgba(0,188,212,.65)"/>
+                <circle cx="18" cy="-4" r="3.5" fill="rgba(255,255,255,.85)"/>
+                <circle cx="19" cy="-4" r="1.5" fill="rgba(0,30,60,.8)"/>
+                <line x1="-10" y1="-8" x2="-10" y2="8" stroke="rgba(0,150,180,.5)" stroke-width="1"/>
+                <line x1="0" y1="-10" x2="0" y2="10" stroke="rgba(0,150,180,.4)" stroke-width="1"/>
+              </g>
+              <!-- Pez mediano - izquierda arriba -->
+              <g transform="translate(75,80) rotate(15)">
+                <ellipse cx="0" cy="0" rx="20" ry="9" fill="rgba(38,166,154,.65)"/>
+                <path d="M-20,0 L-30,-8 L-30,8Z" fill="rgba(38,166,154,.6)"/>
+                <circle cx="13" cy="-2" r="2.5" fill="rgba(255,255,255,.8)"/>
+                <circle cx="14" cy="-2" r="1" fill="rgba(0,30,50,.8)"/>
+              </g>
+              <!-- Pez pequeño 1 -->
+              <g transform="translate(110,145) rotate(-10)">
+                <ellipse cx="0" cy="0" rx="14" ry="6" fill="rgba(128,222,234,.6)"/>
+                <path d="M-14,0 L-22,-6 L-22,6Z" fill="rgba(128,222,234,.55)"/>
+                <circle cx="9" cy="-1.5" r="2" fill="rgba(255,255,255,.75)"/>
+              </g>
+              <!-- Pez pequeño 2 -->
+              <g transform="translate(40,140) rotate(5)">
+                <ellipse cx="0" cy="0" rx="12" ry="5.5" fill="rgba(0,188,212,.5)"/>
+                <path d="M-12,0 L-19,-5 L-19,5Z" fill="rgba(0,188,212,.45)"/>
+                <circle cx="8" cy="-1" r="1.8" fill="rgba(255,255,255,.7)"/>
+              </g>
+              <!-- Pez pequeño 3 (cardumen) -->
+              <g transform="translate(180,160) rotate(-20)">
+                <ellipse cx="0" cy="0" rx="10" ry="5" fill="rgba(38,166,154,.5)"/>
+                <path d="M-10,0 L-16,-4 L-16,4Z" fill="rgba(38,166,154,.45)"/>
+              </g>
+              <g transform="translate(190,170) rotate(-20)">
+                <ellipse cx="0" cy="0" rx="8" ry="4" fill="rgba(38,166,154,.4)"/>
+                <path d="M-8,0 L-13,-3.5 L-13,3.5Z" fill="rgba(38,166,154,.38)"/>
+              </g>
+              <!-- Corales / algas en fondo -->
+              <!-- Alga izquierda -->
+              <path d="M20,240 Q15,210 25,185 Q35,162 22,140" stroke="rgba(0,137,123,.6)" stroke-width="3" fill="none" stroke-linecap="round"/>
+              <path d="M22,200 Q8,192 12,178" stroke="rgba(0,137,123,.5)" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <path d="M24,175 Q35,165 30,152" stroke="rgba(0,137,123,.45)" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <!-- Coral derecha -->
+              <path d="M220,240 Q218,215 225,195" stroke="rgba(0,137,123,.5)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+              <path d="M218,225 Q208,216 212,205" stroke="rgba(0,137,123,.45)" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <path d="M222,210 Q232,202 228,193" stroke="rgba(0,137,123,.4)" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <!-- Coral centro -->
+              <path d="M115,240 Q112,220 118,205" stroke="rgba(38,166,154,.45)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+              <path d="M116,218 Q106,210 109,200" stroke="rgba(38,166,154,.4)" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <path d="M117,208 Q126,200 122,192" stroke="rgba(38,166,154,.38)" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <!-- Fondo marino -->
+              <path d="M0,230 Q60,220 120,228 Q180,236 240,224 L240,240 L0,240Z" fill="rgba(5,25,15,.7)"/>
+              <!-- Badge -->
+              <rect x="58" y="12" width="124" height="22" rx="11" fill="rgba(0,20,40,.65)" stroke="rgba(0,188,212,.4)" stroke-width="1"/>
+              <text x="120" y="27" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="9" font-weight="700" fill="rgba(128,222,234,.85)">Biodiversidad recuperada</text>
+            </svg>
+            <div class="gallery-overlay">
+              <i class="fas fa-fish"></i>
+              <span>Biodiversidad marina recuperándose</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       TESTIMONIOS
+  ═══════════════════════════════════════════ -->
+  <section id="testimonios" class="section testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Voces reales</span>
+        <h2>Lo que dicen<br/><span class="text-accent">quienes hacen el cambio</span></h2>
+      </div>
+
+      <div class="testimonials-carousel">
+        <div class="testimonials-track" id="testimonialsTrack">
+          <div class="testimonial-card">
+            <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+            <p class="testimonial-text">
+              "Antes tirábamos el plástico de vuelta al mar porque no sabíamos qué hacer con él.
+              Hoy recolecto 80 kilos por semana y tengo un ingreso estable para mi familia.
+              REPLASMAR cambió mi vida y la de mi comunidad."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar av1">
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="author-info">
+                <strong>Carlos Palacios</strong>
+                <span>Pescador, Tumaco — Recolector desde 2022</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+            <p class="testimonial-text">
+              "Invertimos $200.000.000 COP en RePlasMar hace 18 meses. El retorno financiero ha sido
+              sólido, pero lo que más nos sorprendió fue el nivel de transparencia y la calidad
+              de los reportes de impacto. Es exactamente lo que buscamos en impact investing."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar av2">
+                <i class="fas fa-user-tie"></i>
+              </div>
+              <div class="author-info">
+                <strong>Valentina Torres</strong>
+                <span>Directora de Sostenibilidad — Fondo Verde Capital</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+            <p class="testimonial-text">
+              "Equipamos toda la zona de playa de nuestro hotel con mobiliario de REPLASMAR.
+              Nuestros huéspedes preguntan por ello en cada visita. Es una historia que vende,
+              y lo mejor es que es completamente real."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar av3">
+                <i class="fas fa-hotel"></i>
+              </div>
+              <div class="author-info">
+                <strong>Miguel Herrera</strong>
+                <span>Gerente General — Hotel Bahía Azul, Cartagena</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+            <p class="testimonial-text">
+              "Como docente de biología marina, ver a mis estudiantes participar en
+              los talleres de REPLASMAR y luego ver cómo cambia su comportamiento
+              en la playa... eso no tiene precio. Están formando ciudadanos oceánicos."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar av4">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="author-info">
+                <strong>Prof. Ana Rojas</strong>
+                <span>Docente de Biología Marina — Universidad del Pacífico</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="prevBtn"><i class="fas fa-arrow-left"></i></button>
+          <div class="carousel-dots" id="carouselDots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <button class="carousel-btn" id="nextBtn"><i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+
+      <div class="partners-section fade-in">
+        <p class="partners-label">Nos apoyan y confían en nosotros:</p>
+        <div class="partners-logos">
+          <div class="partner-logo"><i class="fas fa-university"></i><span>PNUD</span></div>
+          <div class="partner-logo"><i class="fas fa-leaf"></i><span>WWF</span></div>
+          <div class="partner-logo"><i class="fas fa-globe"></i><span>ONU Medio Ambiente</span></div>
+          <div class="partner-logo"><i class="fas fa-building"></i><span>IDB Lab</span></div>
+          <div class="partner-logo"><i class="fas fa-award"></i><span>B Corp Certified</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CONTACTO
+  ════════���══════════════════════════════════ -->
+  <section id="contacto" class="section contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info fade-in">
+          <span class="section-tag">Hablemos</span>
+          <h2>¿Listo para ser<br/><span class="gradient-text">parte del cambio?</span></h2>
+          <p>
+            Seas inversionista, miembro de comunidad, empresa o curioso,
+            tenemos algo para ti. Escríbenos y respondemos en menos de 24 horas.
+          </p>
+          <div class="contact-channels">
+            <div class="channel">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>Email general</strong>
+                <span>hola@replasmar.org</span>
+              </div>
+            </div>
+            <div class="channel">
+              <i class="fas fa-chart-line"></i>
+              <div>
+                <strong>Inversiones</strong>
+                <span>inversiones@replasmar.org</span>
+              </div>
+            </div>
+            <div class="channel">
+              <i class="fas fa-users"></i>
+              <div>
+                <strong>Comunidades</strong>
+                <span>comunidades@replasmar.org</span>
+              </div>
+            </div>
+            <div class="channel">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>+57 300 000 0000</span>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap fade-in">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="nombre">Nombre completo *</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Correo electrónico *</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+              </div>
+              <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+57 300..." />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="perfil">Soy... *</label>
+              <select id="perfil" name="perfil" required>
+                <option value="">Selecciona tu perfil</option>
+                <option value="inversionista">Inversionista</option>
+                <option value="comunidad">Miembro de comunidad costera</option>
+                <option value="empresa">Empresa / Gobierno</option>
+                <option value="consumidor">Consumidor consciente</option>
+                <option value="educacion">Institución educativa</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">¿Cómo podemos ayudarte? *</label>
+              <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos tu interés..." required></textarea>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="terms" name="terms" required />
+              <label for="terms">Acepto el tratamiento de mis datos según la política de privacidad de REPLASMAR.</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              <i class="fas fa-paper-plane"></i> Enviar mensaje
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fas fa-check-circle"></i>
+              <strong>¡Mensaje enviado!</strong> Te responderemos en menos de 24 horas.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#0a2342"/>
+      </svg>
+    </div>
+    <div class="footer-body">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="logo.svg" alt="RePlasMar" width="32" height="32" />
+            <span class="logo-text">RePlasMar</span>
+          </div>
+          <p>Economía circular marina para un océano limpio y comunidades prósperas.</p>
+          <div class="footer-cert">
+            <span><i class="fas fa-certificate"></i> Empresa B certificada</span>
+            <span><i class="fas fa-globe"></i> ODS 14 comprometidos</span>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h5>Explora</h5>
+          <ul>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#como-funciona">Cómo funciona</a></li>
+            <li><a href="#impacto">Impacto</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#educacion">Educación</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h5>Únete</h5>
+          <ul>
+            <li><a href="#inversionistas">Para inversionistas</a></li>
+            <li><a href="#comunidades">Para comunidades</a></li>
+            <li><a href="#contacto">Alianzas corporativas</a></li>
+            <li><a href="#contacto">Instituciones educativas</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h5>Impacto en tu bandeja</h5>
+          <p>Recibe nuestro boletín mensual con métricas reales y novedades del proyecto.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="tu@email.com" aria-label="Email para newsletter" />
+            <button type="submit" aria-label="Suscribir"><i class="fas fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 RePlasMar. Todos los derechos reservados. &nbsp;·&nbsp; <a href="brand.html" style="color:rgba(255,255,255,.45);transition:color .2s;" onmouseover="this.style.color='rgba(255,255,255,.75)'" onmouseout="this.style.color='rgba(255,255,255,.45)'">Guía de marca</a></p>
+        <div class="footer-legal">
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos y condiciones</a>
+          <a href="#">Certificaciones</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
